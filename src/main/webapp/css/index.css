@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.login{
+	position: absolute;
+    right: 6%;
+    top: 6%;
+    margin: 0;
+    padding: 0;
+}
+
+.login a{
+	color: #fff; 
+	text-decoration: none;	
+}
