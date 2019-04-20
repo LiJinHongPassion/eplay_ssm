@@ -1,5 +1,6 @@
 package com.cqut.li.eplay_ssm.service;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -14,4 +15,5 @@ public interface ISportService {
 
     Map<String, Object> updateSportMsgById(Map<String, Object> properties);
 
+    List<Map<String, Object>> getSports(String page);
 }

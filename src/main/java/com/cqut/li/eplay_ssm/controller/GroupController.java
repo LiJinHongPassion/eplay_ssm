@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,10 +31,10 @@ public class GroupController {
         return JSON.toJSONString(groupService.getGroupMsgById(group_id));
     }
 
-    @RequestMapping(value = "/getGroups", method = RequestMethod.GET, produces = "text/plain;charset=utf-8")
-    @ResponseBody
-    public String getGroups(@RequestParam("page") String page){
-        return JSON.toJSONString(groupService.getGroups(page));
+    @RequestMapping(value = "/getGroups", method = RequestMethod.GET)
+    public String getGroups(@RequestParam("page") String page, HttpServletRequest request){
+        request.getSession().setAttribute("group_list_msg", groupService.getGroups(page));
+        return "group";
     }
 
     @RequestMapping(value = "/addGroup", method = RequestMethod.GET, produces = "text/plain;charset=utf-8")

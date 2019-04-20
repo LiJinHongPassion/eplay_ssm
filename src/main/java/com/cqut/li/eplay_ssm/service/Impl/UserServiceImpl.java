@@ -1,7 +1,7 @@
 package com.cqut.li.eplay_ssm.service.Impl;
 
+import com.cqut.li.eplay_ssm.dao.base.Dao;
 import com.cqut.li.eplay_ssm.dao.base.EntityDao;
-import com.cqut.li.eplay_ssm.dao.base.SearchDao;
 import com.cqut.li.eplay_ssm.entity.User;
 import com.cqut.li.eplay_ssm.entity.base.Entity;
 import com.cqut.li.eplay_ssm.service.IUserService;
@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -23,7 +24,7 @@ public class UserServiceImpl implements IUserService {
     @Resource
     private EntityDao entityDao;
     @Resource
-    private SearchDao searchDao;
+    private Dao dao;
 
     /**  这是shiro的注解
      * 普通的service都可以添加这个注解
@@ -56,6 +57,29 @@ public class UserServiceImpl implements IUserService {
         }
 
         return result;
+    }
+
+    @Override
+    public List<Map<String, Object>> getUsers(String page) {
+        List<Map<String, Object>> result_list = dao.searchWithPage(
+                new String[]{
+                        "user_id",
+                        "user_name",
+                        "birthday",
+                        "address",
+                        "email"
+                },
+                Entity.getTableName(User.class),
+                null,
+                null,
+                "1 = 1",
+                null,
+                "user_id",
+                "DESC",
+                Integer.parseInt(page)*10,
+                Integer.parseInt(page)
+        );
+        return result_list;
     }
 
     @Override

@@ -74,7 +74,7 @@ public class MysqlRealm extends AuthorizingRealm {
 		//2. 利用登录的用户的信息来用户当前用户的角色或权限(可能需要查询数据库)
 		Set<String> roles = new HashSet<>();
 		roles.add("user");
-		if("admin".equals(principal)){
+		if("116213801".equals(principal)){
 			roles.add("admin");
 		}
 

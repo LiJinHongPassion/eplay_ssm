@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -57,5 +58,11 @@ public class SportController {
         properties.put("sport_address", address);
         properties.put("sport_time", time);
         return JSON.toJSONString(sportService.updateSportMsgById(properties));
+    }
+
+    @RequestMapping(value = "/getSports", method = RequestMethod.GET)
+    public String getGroups(@RequestParam("page") String page, HttpServletRequest request){
+        request.getSession().setAttribute("sport_list_msg", sportService.getSports(page));
+        return "sports";
     }
 }

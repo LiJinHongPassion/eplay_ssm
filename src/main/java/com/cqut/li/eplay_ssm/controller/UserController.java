@@ -89,6 +89,8 @@ public class UserController {
         user.setUser_id(user_id);
         user.setPassword(password);
         user.setUser_name(user_name);
+        user.setEmail("cqut@gmail.com");
+        user.setAddress("重庆理工大学花溪校区");
         try {
             user.setBirthday(DateFactory.praseDate(birthday));
         } catch (ParseException e) {
@@ -110,6 +112,12 @@ public class UserController {
     public String getUserMsg(@RequestParam("uid") String user_id){
 
         return JSON.toJSONString(userService.getById(user_id));
+    }
+
+    @RequestMapping(value = "/getUsers", method = RequestMethod.GET)
+    public String getUsers(@RequestParam("page") String page, HttpServletRequest request){
+        request.getSession().setAttribute("user_list_msg", userService.getUsers(page));
+        return "users";
     }
 
 

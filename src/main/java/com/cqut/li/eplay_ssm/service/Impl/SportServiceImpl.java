@@ -2,6 +2,7 @@ package com.cqut.li.eplay_ssm.service.Impl;
 
 import com.cqut.li.eplay_ssm.dao.base.Dao;
 import com.cqut.li.eplay_ssm.entity.Sport;
+import com.cqut.li.eplay_ssm.entity.base.Entity;
 import com.cqut.li.eplay_ssm.service.ISportService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -63,5 +65,27 @@ public class SportServiceImpl implements ISportService {
         }
         properties.put("result", "1");
         return properties;
+    }
+
+    @Override
+    public List<Map<String, Object>> getSports(String page) {
+        List<Map<String, Object>> result_list = dao.searchWithPage(
+                new String[]{
+                        "sport_id",
+                        "sport_name",
+                        "price",
+                        "introduce",
+                },
+                Entity.getTableName(Sport.class),
+                null,
+                null,
+                "1 = 1",
+                null,
+                "sport_id",
+                "DESC",
+                Integer.parseInt(page)*10,
+                Integer.parseInt(page)
+        );
+        return result_list;
     }
 }

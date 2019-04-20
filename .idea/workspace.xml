@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="eplay_ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="834b4f36-6498-4b19-bd32-45186bb99ab6" name="Default Changelist" comment="添加ui页面资源">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/H-ui.admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/H-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/H-ui.admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/H-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.contextmenu.r2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/management.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sports.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/controller/GroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/controller/SportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/dao/MySessionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/dao/RedisSessionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/dao/base/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/dao/base/EntityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/dao/base/SearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/entity/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/entity/Sport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/entity/base/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/interceptor/BlackList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/interceptor/BlackListDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/interceptor/IPAddressUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/interceptor/IPInterceptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/interceptor/IPInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/realm/MysqlRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/realm/SecenedRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/redis/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/redis/SerializeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/IGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/ISportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/Impl/GroupServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/tool/DateFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/tool/EntityIDFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/tool/MapTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/cqut/li/eplay_ssm/tool/SerializableUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ehcache-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/EntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/SearchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/404/mixpanel-2-latest.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/493.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/error_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/500/t-bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/MaxUploadSizeExceededExceptionError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/controller/GroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/controller/SportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/dao/MySessionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/dao/RedisSessionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/dao/base/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/dao/base/EntityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/dao/base/SearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/entity/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/entity/Sport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/entity/base/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/interceptor/BlackList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/interceptor/BlackListDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/interceptor/IPAddressUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/interceptor/IPInterceptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/interceptor/IPInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/realm/MysqlRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/realm/SecenedRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/redis/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/redis/SerializeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/IGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/ISportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/Impl/GroupServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/tool/DateFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/tool/EntityIDFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/tool/MapTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/com/cqut/li/eplay_ssm/tool/SerializableUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/ehcache-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/mapping/EntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/mapping/SearchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/ehcache-core-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/fastjson-1.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/shiro-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/shiro-ehcache-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/shiro-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/shiro-web-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-context-support-4.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-data-redis-1.5.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-oxm-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/H-ui.admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/H-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/ihover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/popuo-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fileupload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/MontserratAlternates-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/gallery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/ico/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ab2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/coach_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/ga5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/gg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/pi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/pi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/pi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/se.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/se1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/se2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/se3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/social.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/t-banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/images/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/H-ui.admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/H-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery.contextmenu.r2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/modernizr.custom.53451.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/management.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/personal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/services.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/sports.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/eplay_ssm/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/SportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/SportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/realm/MysqlRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/realm/MysqlRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/ISportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/ISportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eplay_ssm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/management.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1349">
+              <caret line="71" column="53" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/GroupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="docComment;class#GroupController#0" />
+                <element signature="method#addGroup#0;class#GroupController#0" />
+                <element signature="method#updateGroupUser#0;class#GroupController#0" />
+                <element signature="method#delGroupUser#0;class#GroupController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="87" />
+              <folding>
+                <element signature="e#843#854#0" />
+                <element signature="e#1608#1827#0" />
+                <element signature="e#1875#1998#0" />
+                <element signature="e#2012#2140#1" />
+                <element signature="e#2340#2365#0" />
+                <element signature="method#register#0;class#UserController#0" />
+                <element signature="e#3017#3091#0" />
+                <element signature="e#3117#3353#0" />
+                <element signature="e#3177#3263#0" />
+                <element signature="e#3290#3343#0" />
+                <element signature="method#getUserMsg#0;class#UserController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/SportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1007">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/group.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/sports.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="119" selection-start-line="46" selection-start-column="105" selection-end-line="46" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/users.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="58" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../../../../../../Downloads/FireShot/html5%20canvas绘制404未找到页面动画模板_files</find>
+      <find>SerializableUtils</find>
+      <find>session</find>
+      <find>demo</find>
+      <find>../../../../../漂亮的404、500、502等错误页面代码打包下载</find>
+      <find>session.getId().toString()</find>
+      <find>group_userlist_id</find>
+      <find>format2</find>
+      <find>r</find>
+      <find>;</find>
+      <find>text/plain</find>
+      <find>rememberMeManager</find>
+      <find>Group</find>
+      <find>Redis</find>
+      <find>InputStream</find>
+      <find>type</find>
+      <find>byte[]</find>
+      <find>登录</find>
+      <find>TempDir</find>
+      <find>excep</find>
+      <find>jacks</find>
+      <find>com.gcs.</find>
+      <find>sport</find>
+      <find>userList</find>
+      <find>group</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>404</replace>
+      <replace>&lt;%=request.getContextPath()%&gt;/404</replace>
+      <replace>&lt;%=request.getContextPath()%&gt;/500</replace>
+      <replace>SerializableUtils.serializeObject(session.getId())</replace>
+      <replace>group_userlist</replace>
+      <replace>&quot;,</replace>
+      <replace>text/plain;charset=utf-8</replace>
+      <replace>Sport</replace>
+      <replace>user</replace>
+      <replace>com.cqut.li.eplay_ssm.</replace>
+      <replace>sportMap</replace>
+      <replace>groupList</replace>
+      <replace>sport</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/eplay_ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/500.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/500.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/dao/RedisSessionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/tool/SerializableUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IGroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/services.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/Sport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/dao/MySessionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/personal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/BlackList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/BlackList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/BlackListDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/IPAddressUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/IPInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/FileUpload.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/MaxUploadSizeExceededExceptionError.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/GroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/realm/MysqlRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/sports.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/group.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/ISportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/SportController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/GroupController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\MyEclipse\mavenHome\repository" />
+        <option name="mavenHome" value="F:/MyEclipse/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="F:\MyEclipse\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eplay_ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eplay_ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="713" />
+    <option name="y" value="-22" />
+    <option name="width" value="1075" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplay_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplay_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp" />
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp\css" />
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp\js" />
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cqut.li.eplay_ssm.interceptor" />
+      <recent name="com.cqut.li.eplay_ssm.entity" />
+      <recent name="com.cqut.li.eplay_ssm.dao" />
+      <recent name="com.cqut.li.eplay_ssm.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp" />
+      <recent name="C:\Users\Li\Desktop\eplay\eplay_ssm\src\main\webapp\500" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="eplay_ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/test" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_eplay_ssm_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="25400" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="eplay_ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="834b4f36-6498-4b19-bd32-45186bb99ab6" name="Default Changelist" comment="" />
+      <created>1555203687821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555203687821</updated>
+      <workItem from="1555203690970" duration="34808000" />
+      <workItem from="1555247205798" duration="2058000" />
+      <workItem from="1555249326569" duration="382000" />
+      <workItem from="1555250952825" duration="141000" />
+      <workItem from="1555287402598" duration="6260000" />
+      <workItem from="1555298836636" duration="13632000" />
+      <workItem from="1555337101430" duration="1190000" />
+      <workItem from="1555341596598" duration="667000" />
+      <workItem from="1555377713898" duration="974000" />
+      <workItem from="1555422850719" duration="2076000" />
+      <workItem from="1555430516945" duration="717000" />
+      <workItem from="1555475974400" duration="973000" />
+      <workItem from="1555558293033" duration="1837000" />
+      <workItem from="1555635986189" duration="6238000" />
+      <workItem from="1555654939768" duration="8751000" />
+      <workItem from="1555676389528" duration="598000" />
+      <workItem from="1555726833188" duration="418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81720000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7063712" visible="true" weight="0.21983914" />
+      <window_info id="Structure" order="1" sideWeight="0.2936288" side_tool="true" visible="true" weight="0.21983914" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5034965" side_tool="true" weight="0.27882037" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45825243" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.22160664" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.5103735" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.28354082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.211126" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="CDI" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/BlackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/BlackListDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/IPAddressUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/interceptor/IPInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#647#664#0" expanded="true" />
+            <element signature="e#2450#2647#0" expanded="true" />
+            <element signature="e#2646#2647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="116" column="35" lean-forward="true" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/org/apache/commons/io/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/fileupload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/org/apache/commons/io/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="2076" column="43" selection-start-line="2076" selection-start-column="23" selection-end-line="2076" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="195" column="61" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsFileUploadSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding>
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3797#3798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="95" column="77" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/MaxUploadSizeExceededExceptionError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="44" column="8" selection-start-line="44" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/H-ui.admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/H-ui.admin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/realm/MysqlRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/users.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/GroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="155" column="5" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#GroupServiceImpl#0" />
+            <element signature="method#getGroupMsgById#0;class#GroupServiceImpl#0" />
+            <element signature="method#addGroup#0;class#GroupServiceImpl#0" />
+            <element signature="e#1317#1453#1" />
+            <element signature="method#updateGroupUser#0;class#GroupServiceImpl#0" />
+            <element signature="e#1966#2102#1" />
+            <element signature="method#delGroupUser#0;class#GroupServiceImpl#0" />
+            <element signature="e#2477#2599#1" />
+            <element signature="e#2520#2589#1" />
+            <element signature="e#2668#2719#1" />
+            <element signature="e#3046#3182#1" />
+            <element signature="method#updateGroupMsgById#0;class#GroupServiceImpl#0" />
+            <element signature="e#3525#3661#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3-sources.jar!/org/apache/shiro/web/servlet/ShiroHttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+            <element signature="e#7315#7316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/factory/FilterChainDefinitionMapBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/IGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/ISportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/entity/Sport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/service/Impl/SportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="87" />
+          <folding>
+            <element signature="e#843#854#0" />
+            <element signature="e#1608#1827#0" />
+            <element signature="e#1875#1998#0" />
+            <element signature="e#2012#2140#1" />
+            <element signature="e#2340#2365#0" />
+            <element signature="method#register#0;class#UserController#0" />
+            <element signature="e#3017#3091#0" />
+            <element signature="e#3117#3353#0" />
+            <element signature="e#3177#3263#0" />
+            <element signature="e#3290#3343#0" />
+            <element signature="method#getUserMsg#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/SportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/group.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sports.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="119" selection-start-line="46" selection-start-column="105" selection-end-line="46" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqut/li/eplay_ssm/controller/GroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="docComment;class#GroupController#0" />
+            <element signature="method#addGroup#0;class#GroupController#0" />
+            <element signature="method#updateGroupUser#0;class#GroupController#0" />
+            <element signature="method#delGroupUser#0;class#GroupController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eplay_ssm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
